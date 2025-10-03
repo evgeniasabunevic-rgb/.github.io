@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт-визитка студента - Евгения Шабуневич</title>
+    
+    <!-- Фавиконка -->
+    <link rel="icon" type="image/png" href="img/favicon.png">  
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">Евгения Шабуневич</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#about">Обо мне</a></li>
+                        <li><a href="#education">Образование</a></li>
+                        <li><a href="#skills">Навыки</a></li>
+                        <li><a href="#projects">Проекты</a></li>
+                        <li><a href="#contact">Контакты</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Основное содержимое -->
+    <main>
+        <!-- Секция "Обо мне" -->
+        <section id="about" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-image">
+                        <img src="img/profile.jpg" alt="Фото Евгении Шабуневич">
+                    </div>
+                    <div class="hero-text">
+                        <h2>Привет, я Евгения Шабуневич</h2>
+                        <p>Студентка 4 курса по направлению "Веб-разработка и дизайн". Увлекаюсь созданием современных и адаптивных веб-сайтов. Стремлюсь к постоянному развитию и изучению новых технологий.</p>
+                        <div class="social-links">
+                            <a href="https://github.com/evgeniya-shabunevich" target="_blank">
+                                <img src="img/github-icon.png" alt="GitHub">
+                            </a>
+                            <a href="https://t.me/evgeniya_shabunevich" target="_blank">
+                                <img src="img/telegram-icon.png" alt="Telegram">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Образование" -->
+        <section id="education" class="education">
+            <div class="container">
+                <h2>Образование</h2>
+                <div class="education-grid">
+                    <div class="education-item">
+                        <h3>ИМСИТ</h3>
+                        <p class="degree">Среднее высшее образование информационные системы и программирования</p>
+                        <p class="period">2022 - 2026</p>
+                        <p>Специализация: Веб-разработка и мобильные приложения</p>
+                    </div>
+                    <div class="education-item">
+                        <h3>Курсы повышения квалификации</h3>
+                        <p class="degree">Frontend разработка</p>
+                        <p class="period">2024</p>
+                        <p>HTML5, CSS3, JavaScript, React</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Навыки" -->
+        <section id="skills" class="skills">
+            <div class="container">
+                <h2>Навыки</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Frontend</h3>
+                        <ul>
+                            <li>HTML5 & CSS3</li>
+                            <li>JavaScript (ES6+)</li>
+                            <li>React.js</li>
+                            <li>Responsive Design</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Backend</h3>
+                        <ul>
+                            <li>Node.js</li>
+                            <li>Express.js</li>
+                            <li>MongoDB</li>
+                            <li>REST API</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Инструменты</h3>
+                        <ul>
+                            <li>Git & GitHub</li>
+                            <li>VS Code</li>
+                            <li>Figma</li>
+                            <li>Photoshop</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Проекты" -->
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2>Мои проекты</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project1.jpg" alt="Интернет-магазин">
+                        </div>
+                        <div class="project-info">
+                            <h3>Интернет-магазин</h3>
+                            <p>Полнофункциональный интернет-магазин с корзиной покупок, системой фильтрации и оформлением заказа.</p>
+                            <div class="project-tech">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="https://github.com/evgeniya-shabunevich/ecommerce-project" target="_blank" class="project-link">Посмотреть проект</a>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="img/project2.jpg" alt="Портфолио сайт">
+                        </div>
+                        <div class="project-info">
+                            <h3>Сайт портфолио</h3>
+                            <p>Адаптивный сайт-портфолио для фотографа с галереей работ, блогом и системой обратной связи.</p>
+                            <div class="project-tech">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="https://github.com/evgeniya-shabunevich/portfolio-website" target="_blank" class="project-link">Посмотреть проект</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Секция "Контакты" -->
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Свяжитесь со мной</h2>
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Контактная информация</h3>
+                        <div class="contact-item">
+                            <strong>Email:</strong>
+                            <p>ivan.evgeniasabunevic@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Телефон:</strong>
+                            <p>+7 (999) 633-10-65</p>
+                        </div>
+                        <div class="contact-item">
+                            <strong>Город:</strong>
+                            <p>Краснодар, Россия</p>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Имя:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Сообщение:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал сайта -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Евгения Шабуневич. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
